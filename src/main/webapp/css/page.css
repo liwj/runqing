@@ -1,0 +1,60 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.STYLE1 {font-size: 12px}
+.STYLE3 {font-size: 12px; font-weight: bold; }
+.STYLE4 {
+	color: #03515d;
+	font-size: 12px;
+}
+
+.page{
+    padding-right:5px;
+}
+
+.page a:link{
+    text-decoration: none;
+}
+
+.page swan {
+    color: #1873AA;
+    padding:0px 5px;
+	font-weight: bold;
+}
+.page swan:hover { 
+	background:#1873AA; 
+	color:#FFF; 
+}
+.pageimg{
+	padding-right:5px;
+	padding-left:5px;
+}
+.current{
+	color:gray !important;
+}
+.current:hover{
+	background:none !important; 
+	color:gray !important; 
+}
+.imgspansub{
+	vertical-align:sub;
+}
+.marginright10{
+	margin-right:10px;
+}
+.marginright5{
+	margin-right:10px;
+}
+.imgspantop{
+	vertical-align:top;
+}
+.nodecoration:link{
+    text-decoration: none;
+}
+.nodecoration{
+	text-decoration: none;
+	color 
+}

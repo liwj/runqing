@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/themes/advanced/js"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="source_editor.js"
+   text-time="2014-07-15T05:17:54.727793Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="f1868bbc00bbeb955a231556a686d35a"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:54.314770Z"/>
+<entry
+   committed-rev="30"
+   name="about.js"
+   text-time="2014-07-15T05:17:54.734794Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="606c16492a17240ebded6e9fce75a555"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:54.412775Z"/>
+<entry
+   committed-rev="30"
+   name="anchor.js"
+   text-time="2014-07-15T05:17:54.742794Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="627d9e980a9857830d3f286a570f58db"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:54.419776Z"/>
+<entry
+   committed-rev="30"
+   name="charmap.js"
+   text-time="2014-07-15T05:17:54.749795Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="45fb124d08a1556ead4e1a845f79b2a6"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:54.428776Z"/>
+<entry
+   committed-rev="30"
+   name="color_picker.js"
+   text-time="2014-07-15T05:17:54.753795Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="32264653244ba97ff7190a23f9df3b6f"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:54.612787Z"/>
+<entry
+   committed-rev="30"
+   name="link.js"
+   text-time="2014-07-15T05:17:54.758795Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="ba62151ce29f9af4387a172e72bde93f"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:54.624788Z"/>
+<entry
+   committed-rev="30"
+   name="image.js"
+   text-time="2014-07-15T05:17:54.763795Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="dee28875c35ea494ee1f216d9b4c8e99"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:54.711793Z"/>
+</wc-entries>

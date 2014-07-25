@@ -1,0 +1,104 @@
+.no_sorting{
+    background: right center #8F8F8F;
+    color: #FFFFFF;
+    padding: 8px 5px; 
+}
+.center{
+	text-align:center;
+}
+.right{
+	text-align:right;
+}
+.dataTables_length_my {
+    float: left;
+    margin-bottom: 1em;
+    width: 30%;
+}
+.dataTables_filter_my {
+    float: right;
+    margin-bottom: 1em;
+    text-align: right;
+    width: 70%;
+}
+.sys_btn{
+	height: 24px;
+    line-height: 20px;
+    margin-left:10px;
+}
+.imgspansub{
+	vertical-align:sub;
+}
+.paging_two_button {
+    font-size: 80%;
+}
+.paging_two_button a {
+    border: 1px solid #39A7B6;
+    color: #002142;
+    text-decoration: none;
+}
+td a{
+	font-weight: normal;
+}
+.zhezhangDiv{
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+	 right: 0px;
+	 bottom: 0px;
+	 visibility: visible;
+	 background:rgba(0,0,0,0.5);
+     -moz-border-radius:5px;
+     -webkit-border-radius:5px;
+     border-radius:5px;
+	 background:rgba(0,0,0,0.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+}
+.showInfo{
+	position:absolute; 
+	top:50%; 
+	left:50%; 
+}
+
+.titleDiv{
+    background: none repeat scroll 0 0 #E6F0F3;
+    border-bottom: 1px solid #B3CBD6;
+    border-radius: 5px 5px 0 0;
+    margin: -10px -10px 0;
+    padding: 10px 12px;
+    height: 20px;
+}
+.title{
+	font-weight: bold;
+    color: #1B548D;
+    font-size: 1.2em;
+}
+
+.show{
+	display: block;
+}
+.hidden{
+	display: none;
+}
+.paging_two_button a:hover{
+    border: 1px solid #77B32F;
+    background-color: #77B32F;
+    border-color: #689C29;
+    color: #FFFFFF;
+}
+.paging_two_button a, .paging_two_button span {
+    display: block;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+    padding: 0.2em 0.8em;
+}
+.paging_two_button .current {
+    background: none repeat scroll 0 0 #204562;
+    border: 1px solid #AAAAEE;
+    color: #FFFFFF;
+}
+.paging_two_button .current.prev, .paging_two_button .current.next {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #999999;
+    color: #999999;
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jynine.dao.SourceDao">
+  <resultMap id="BaseResultMap" type="com.jynine.model.Source">
+    <id column="sourceid" jdbcType="VARCHAR" property="sourceid" />
+    <result column="sourcename" jdbcType="VARCHAR" property="sourcename" />
+    <result column="sourceurl" jdbcType="VARCHAR" property="sourceurl" />
+    <result column="sourcetype" jdbcType="INTEGER" property="sourcetype" />
+    <result column="sourceindex" jdbcType="INTEGER" property="sourceindex" />
+    <result column="sourceparent" jdbcType="VARCHAR" property="sourceparent" />
+    <result column="roleid" jdbcType="INTEGER" property="roleId" />
+    <result column="level" jdbcType="INTEGER" property="level" />
+    <result column="btn_name" jdbcType="VARCHAR" property="btnName" />
+    <result column="btn_type" jdbcType="VARCHAR" property="btnType" />
+    <result column="btn_img_url" jdbcType="VARCHAR" property="btnImgUrl" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    sourceid, sourcename, sourceurl, sourcetype, sourceindex, sourceparent,level,btn_name,btn_type,btn_img_url
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_source
+    where sourceid = #{sourceid,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from t_source
+    where sourceid = #{sourceid,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.jynine.model.Source">
+    insert into t_source (sourceid, sourcename, sourceurl, 
+      sourcetype, sourceindex, sourceparent,level,btn_name,btn_type,btn_img_url
+      )
+    values (#{sourceid,jdbcType=VARCHAR}, #{sourcename,jdbcType=VARCHAR}, #{sourceurl,jdbcType=VARCHAR}, 
+      #{sourcetype,jdbcType=INTEGER}, #{sourceindex,jdbcType=INTEGER}, #{sourceparent,jdbcType=VARCHAR},
+       #{level,jdbcType=INTEGER},#{btnName,jdbcType=VARCHAR},
+      #{btnType,jdbcType=VARCHAR},#{btnImgUrl,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jynine.model.Source">
+    insert into t_source
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="sourceid != null">
+        sourceid,
+      </if>
+      <if test="sourcename != null">
+        sourcename,
+      </if>
+      <if test="sourceurl != null">
+        sourceurl,
+      </if>
+      <if test="sourcetype != null">
+        sourcetype,
+      </if>
+      <if test="sourceindex != null">
+        sourceindex,
+      </if>
+      <if test="sourceparent != null">
+        sourceparent,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="sourceid != null">
+        #{sourceid,jdbcType=VARCHAR},
+      </if>
+      <if test="sourcename != null">
+        #{sourcename,jdbcType=VARCHAR},
+      </if>
+      <if test="sourceurl != null">
+        #{sourceurl,jdbcType=VARCHAR},
+      </if>
+      <if test="sourcetype != null">
+        #{sourcetype,jdbcType=INTEGER},
+      </if>
+      <if test="sourceindex != null">
+        #{sourceindex,jdbcType=INTEGER},
+      </if>
+      <if test="sourceparent != null">
+        #{sourceparent,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jynine.model.Source">
+    update t_source
+    <set>
+      <if test="sourcename != null">
+        sourcename = #{sourcename,jdbcType=VARCHAR},
+      </if>
+      <if test="sourceurl != null">
+        sourceurl = #{sourceurl,jdbcType=VARCHAR},
+      </if>
+      <if test="sourcetype != null">
+        sourcetype = #{sourcetype,jdbcType=INTEGER},
+      </if>
+      <if test="sourceindex != null">
+        sourceindex = #{sourceindex,jdbcType=INTEGER},
+      </if>
+      <if test="sourceparent != null">
+        sourceparent = #{sourceparent,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where sourceid = #{sourceid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jynine.model.Source">
+    update t_source
+    set sourcename = #{sourcename,jdbcType=VARCHAR},
+      sourceurl = #{sourceurl,jdbcType=VARCHAR},
+      sourcetype = #{sourcetype,jdbcType=INTEGER},
+      sourceindex = #{sourceindex,jdbcType=INTEGER},
+      sourceparent = #{sourceparent,jdbcType=VARCHAR}
+    where sourceid = #{sourceid,jdbcType=VARCHAR}
+  </update>
+  <select id="queryAllSources" resultMap="BaseResultMap">
+  	select    <include refid="Base_Column_List"/> ,role_id as roleid
+  	 from t_source a,t_role_resource b where a. sourceId = b.source_id
+  </select>
+  <select id="querySourcesByRoleId" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+  select    <include refid="Base_Column_List"/> ,role_id as roleid
+  from t_source a,t_role_resource b 
+  where a. sourceId = b.source_id and b.role_id = #{roleId,jdbcType=INTEGER}
+  </select>
+</mapper>

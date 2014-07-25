@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jynine.dao.DormitoryBuildingDao" >
+  <resultMap id="BaseResultMap" type="com.jynine.model.DormitoryBuilding" >
+    <id column="db_id" property="dbId" jdbcType="INTEGER" />
+    <result column="db_name" property="dbName" jdbcType="VARCHAR" />
+    <result column="db_desc" property="dbDesc" jdbcType="VARCHAR" />
+    <result column="db_num" property="dbNum" jdbcType="INTEGER" />
+    <result column="db_room_num" property="dbRoomNum" jdbcType="INTEGER" />
+    <result column="db_time" property="dbTime" jdbcType="DATE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    db_id, db_name, db_desc, db_num, db_room_num, db_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_dormitory_building
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_dormitory_building
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jynine.model.DormitoryBuilding" >
+    insert into t_dormitory_building (db_id, db_name, db_desc, 
+      db_num, db_room_num, db_time
+      )
+    values (#{dbId,jdbcType=INTEGER}, #{dbName,jdbcType=VARCHAR}, #{dbDesc,jdbcType=VARCHAR}, 
+      #{dbNum,jdbcType=INTEGER}, #{dbRoomNum,jdbcType=INTEGER}, #{dbTime,jdbcType=DATE}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jynine.model.DormitoryBuilding" useGeneratedKeys="true" keyProperty="dbId">
+    insert into t_dormitory_building
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="dbId != null" >
+        db_id,
+      </if>
+      <if test="dbName != null" >
+        db_name,
+      </if>
+      <if test="dbDesc != null" >
+        db_desc,
+      </if>
+      <if test="dbNum != null" >
+        db_num,
+      </if>
+      <if test="dbRoomNum != null" >
+        db_room_num,
+      </if>
+      <if test="dbTime != null" >
+        db_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="dbId != null" >
+        #{dbId,jdbcType=INTEGER},
+      </if>
+      <if test="dbName != null" >
+        #{dbName,jdbcType=VARCHAR},
+      </if>
+      <if test="dbDesc != null" >
+        #{dbDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="dbNum != null" >
+        #{dbNum,jdbcType=INTEGER},
+      </if>
+      <if test="dbRoomNum != null" >
+        #{dbRoomNum,jdbcType=INTEGER},
+      </if>
+      <if test="dbTime != null" >
+        #{dbTime,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jynine.model.DormitoryBuilding" >
+    update t_dormitory_building
+    <set >
+      <if test="dbName != null" >
+        db_name = #{dbName,jdbcType=VARCHAR},
+      </if>
+      <if test="dbDesc != null" >
+        db_desc = #{dbDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="dbNum != null" >
+        db_num = #{dbNum,jdbcType=INTEGER},
+      </if>
+      <if test="dbRoomNum != null" >
+        db_room_num = #{dbRoomNum,jdbcType=INTEGER},
+      </if>
+      <if test="dbTime != null" >
+        db_time = #{dbTime,jdbcType=DATE},
+      </if>
+    </set>
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jynine.model.DormitoryBuilding" >
+    update t_dormitory_building
+    set db_name = #{dbName,jdbcType=VARCHAR},
+      db_desc = #{dbDesc,jdbcType=VARCHAR},
+      db_num = #{dbNum,jdbcType=INTEGER},
+      db_room_num = #{dbRoomNum,jdbcType=INTEGER},
+      db_time = #{dbTime,jdbcType=DATE}
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </update>
+  <insert id="insertRooms" parameterType="java.util.List">
+     insert into 
+     t_dormitory_room 
+	     (db_id, 
+	     dr_num, 
+	     dr_desc, 
+	     dr_emp, 
+	     dr_status) 
+     <foreach collection="list" item="item" index="index" separator="union all" >
+      	select 
+      		#{item.dbId}, 
+      		#{item.drNum},
+      		#{item.drDesc},  
+      		#{item.drEmp},
+      		#{item.drStatus}
+	      from dual
+      </foreach>
+  </insert>
+</mapper>

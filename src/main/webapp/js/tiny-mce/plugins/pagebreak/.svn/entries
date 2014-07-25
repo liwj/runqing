@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/pagebreak"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin.js"
+   text-time="2014-07-15T05:18:06.496467Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="8be3376740c886fa2842d2f4eb282bbc"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:06.482466Z"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin_src.js"
+   text-time="2014-07-15T05:18:06.489466Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="c2d432a5914f0095a859ff443700a5e9"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:06.478466Z"/>
+</wc-entries>

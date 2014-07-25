@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/spellchecker/classes"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   name="utils"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/searchreplace"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin.js"
+   text-time="2014-07-15T05:18:03.602301Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="ed4f1fa6e12844b533c86258647a298f"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:03.568299Z"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin_src.js"
+   text-time="2014-07-15T05:18:03.591300Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="7292198991a0fda1b9c7b28c921c6521"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:03.397289Z"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="searchreplace.htm"
+   text-time="2014-07-15T05:18:03.596301Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="3b9c195a5883e759e83dd6958c87323b"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:03.513296Z"/>
+<entry
+   name="js"
+   kind="dir"/>
+</wc-entries>

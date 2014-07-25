@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<Context>  
+	  <!-- database -->
+      <Resource name="jdbc/mysql" auth="Container"   
+      type="javax.sql.DataSource"  
+      driverClassName="com.mysql.jdbc.Driver"  
+      url="jdbc:mysql://123.147.164.63:3306/hb_wom_test?useUnicode=true&amp;characterEncoding=utf-8"  
+      username="womtest"  
+      password="cqwom_womtest2013"  
+      maxActive="50"  
+      maxIdle="30"  
+      maxWait="10000" />
+</Context>  
+

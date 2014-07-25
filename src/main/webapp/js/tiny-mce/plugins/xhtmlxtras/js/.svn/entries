@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/xhtmlxtras/js"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="cite.js"
+   text-time="2014-07-15T05:18:04.693363Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="ba39487ce6a625538b838c21502bbaa7"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.604358Z"/>
+<entry
+   committed-rev="30"
+   name="del.js"
+   text-time="2014-07-15T05:18:04.698364Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="be96fef888076d27384dd3546e8b6b6f"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.608359Z"/>
+<entry
+   committed-rev="30"
+   name="abbr.js"
+   text-time="2014-07-15T05:18:04.702364Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="d91ae7d986336de4ecb977d19dcfab19"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.612359Z"/>
+<entry
+   committed-rev="30"
+   name="attributes.js"
+   text-time="2014-07-15T05:18:04.707364Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="e75f23fae888b9febb57a29f2eb5a86c"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.670362Z"/>
+<entry
+   committed-rev="30"
+   name="acronym.js"
+   text-time="2014-07-15T05:18:04.712365Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="0a19f79bdc9222d3273712fe37a8051c"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.674362Z"/>
+<entry
+   committed-rev="30"
+   name="ins.js"
+   text-time="2014-07-15T05:18:04.681363Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="6148dd4151e58dcda9112933908b97b1"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.597358Z"/>
+<entry
+   committed-rev="30"
+   name="element_common.js"
+   text-time="2014-07-15T05:18:04.686363Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="b817f5e2d514147d72765c92c1f60f3d"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.600358Z"/>
+</wc-entries>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="56"
+   name=""
+   committed-date="2014-07-23T11:53:27.211154Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/WEB-INF/views/admin/emp"
+   last-author="road2013"
+   kind="dir"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="56"/>
+<entry
+   committed-rev="56"
+   name="viewemp.ftl"
+   text-time="2014-07-23T03:28:19.929756Z"
+   committed-date="2014-07-23T11:53:27.211154Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="road2013"
+   kind="file"/>
+<entry
+   committed-rev="56"
+   name="listemp.ftl"
+   text-time="2014-07-23T03:28:19.927756Z"
+   committed-date="2014-07-23T11:53:27.211154Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="road2013"
+   kind="file"/>
+<entry
+   committed-rev="56"
+   name="childlist.ftl"
+   text-time="2014-07-23T03:28:19.924756Z"
+   committed-date="2014-07-23T11:53:27.211154Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="road2013"
+   kind="file"/>
+<entry
+   committed-rev="56"
+   name="editemp.ftl"
+   text-time="2014-07-23T03:28:19.926756Z"
+   committed-date="2014-07-23T11:53:27.211154Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="road2013"
+   kind="file"/>
+<entry
+   committed-rev="56"
+   name="addemp.ftl"
+   text-time="2014-07-23T03:28:19.922756Z"
+   committed-date="2014-07-23T11:53:27.211154Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="road2013"
+   kind="file"/>
+</wc-entries>

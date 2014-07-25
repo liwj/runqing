@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="47"
+   name=""
+   committed-date="2014-07-21T10:44:04.527250Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/WEB-INF/views/web"
+   last-author="road2013"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   schedule="delete"
+   revision="49"/>
+<entry
+   name="emp"
+   kind="dir"
+   deleted="true"/>
+<entry
+   name="msg"
+   kind="dir"
+   deleted="true"/>
+</wc-entries>

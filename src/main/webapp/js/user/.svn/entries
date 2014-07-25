@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="54"
+   name=""
+   committed-date="2014-07-22T14:44:48.285410Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/user"
+   last-author="road2013"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="56"
+   name="listuser.js"
+   text-time="2014-07-23T11:50:13.286190Z"
+   committed-date="2014-07-23T11:53:27.211154Z"
+   checksum="8de57416ac68a417d4f390cc84945e40"
+   last-author="road2013"
+   kind="file"
+   prop-time="2014-07-23T01:13:06.837468Z"
+   revision="56"/>
+</wc-entries>

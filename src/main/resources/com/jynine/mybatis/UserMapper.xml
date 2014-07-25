@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jynine.dao.UserDao" >
+  <resultMap id="BaseResultMap" type="com.jynine.model.User" >
+    <id column="user_id" property="userId" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="role_id" property="roleId" jdbcType="INTEGER" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="last_login_time" property="lastLoginTime" jdbcType="TIMESTAMP" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="shop_id" property="shopId" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    user_id, name, role_id, password, last_login_time, username, sex, shop_id, status, 
+    update_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from user
+    where user_id = #{userId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from user
+    where user_id = #{userId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.jynine.model.User" >
+    insert into user (user_id, name, role_id, 
+      password, last_login_time, username, 
+      sex, shop_id, status, 
+      update_time)
+    values (#{userId,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{roleId,jdbcType=INTEGER}, 
+      #{password,jdbcType=VARCHAR}, #{lastLoginTime,jdbcType=TIMESTAMP}, #{username,jdbcType=VARCHAR}, 
+      #{sex,jdbcType=INTEGER}, #{shopId,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, 
+      #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jynine.model.User" >
+    insert into user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userId != null" >
+        user_id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="roleId != null" >
+        role_id,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="lastLoginTime != null" >
+        last_login_time,
+      </if>
+      <if test="username != null" >
+        username,
+      </if>
+      <if test="sex != null" >
+        sex,
+      </if>
+      <if test="shopId != null" >
+        shop_id,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userId != null" >
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="roleId != null" >
+        #{roleId,jdbcType=INTEGER},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="lastLoginTime != null" >
+        #{lastLoginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="username != null" >
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        #{sex,jdbcType=INTEGER},
+      </if>
+      <if test="shopId != null" >
+        #{shopId,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jynine.model.User" >
+    update user
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="roleId != null" >
+        role_id = #{roleId,jdbcType=INTEGER},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="lastLoginTime != null" >
+        last_login_time = #{lastLoginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        sex = #{sex,jdbcType=INTEGER},
+      </if>
+      <if test="shopId != null" >
+        shop_id = #{shopId,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where user_id = #{userId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jynine.model.User" >
+    update user
+    set name = #{name,jdbcType=VARCHAR},
+      role_id = #{roleId,jdbcType=INTEGER},
+      password = #{password,jdbcType=VARCHAR},
+      last_login_time = #{lastLoginTime,jdbcType=TIMESTAMP},
+      username = #{username,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=INTEGER},
+      shop_id = #{shopId,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where user_id = #{userId,jdbcType=INTEGER}
+  </update>
+  
+  <select id="queryUserByUserName" parameterType="java.lang.String" resultMap="BaseResultMap">
+  	select <include refid="Base_Column_List"/>
+  	 from user where username = #{username,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="findUsersByPage" parameterType="map" resultType="com.jynine.model.vo.UserVo">
+      select 
+	       a.user_id         userId,
+	       a.name            userName,
+	       a.username        loginName,
+	       a.status          status,
+	       a.last_login_time lastLoginTime,
+	       b.rolename        userRole
+	  from 
+	  		user a
+	  LEFT JOIN role b
+	    on a.role_id = b.id
+	    <if test="name!=null and name!=''">
+	        where a.name = #{name,jdbcType=VARCHAR}
+	    </if>
+	 ORDER BY a.user_id asc LIMIT #{startLine}, #{pageSize}
+  </select>
+  <select id="findUserCount" resultType="java.lang.Integer" parameterType="java.lang.String">
+      select count(1) from user 
+      <if test="name!=null and name!=''">
+	        where name = #{name,jdbcType=VARCHAR}
+	  </if>
+  </select>
+  <select id="findUsers" resultType="com.jynine.model.User" parameterType="java.lang.String">
+      select
+	      user_Id userId,
+	      name name
+      from 
+      	user 
+      where 
+      	status = 0
+  </select>
+  <select id="findUserById" parameterType="java.lang.Integer" resultType="com.jynine.model.vo.UserVo">
+       select 
+	       a.user_id         userId,
+	       a.name            userName,
+	       a.username        loginName,
+	       a.status          status,
+	       a.last_login_time lastLoginTime,
+	       b.rolename        userRole
+	  from 
+	  		user a
+	  LEFT JOIN role b
+	    on a.role_id = b.id
+	        where a.user_id = #{userId}
+  </select>
+</mapper>

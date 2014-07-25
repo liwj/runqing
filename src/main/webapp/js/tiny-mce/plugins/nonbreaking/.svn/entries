@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/nonbreaking"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin.js"
+   text-time="2014-07-15T05:18:02.443235Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="232f23a586f10bd8ddabf38d767113d4"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:02.433234Z"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin_src.js"
+   text-time="2014-07-15T05:18:02.448235Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="fefbda5243d10652038ccf40801b8893"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:02.437234Z"/>
+</wc-entries>

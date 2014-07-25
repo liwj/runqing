@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/preview"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin.js"
+   text-time="2014-07-15T05:18:00.812141Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="925216b63aabd5adc67d642ca2d04b4a"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:00.764139Z"/>
+<entry
+   name="jscripts"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="preview.html"
+   text-time="2014-07-15T05:18:00.817142Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="bb02414f4cdd28c4a66e7fb5ed820f2d"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:00.796141Z"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin_src.js"
+   text-time="2014-07-15T05:18:00.822142Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="6f9c3234dfdc0f62b713e8771f4ca5dc"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:00.800141Z"/>
+<entry
+   committed-rev="30"
+   name="example.html"
+   text-time="2014-07-15T05:18:00.807141Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="9b9290408ae10fa29ec29db60682be91"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:00.760138Z"/>
+</wc-entries>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/themes/advanced/skins/default/img"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="buttons.png"
+   text-time="2014-07-15T05:17:55.531839Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="33b2f2e08cc3ade5254fec64c4183558"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:55.502838Z"/>
+<entry
+   committed-rev="30"
+   name="menu_arrow.gif"
+   text-time="2014-07-15T05:17:55.537840Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="e21752451a9d80e276fef7b602bdbdba"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:55.506838Z"/>
+<entry
+   committed-rev="30"
+   name="items.gif"
+   text-time="2014-07-15T05:17:55.542840Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="d201498a710fc8aac6e117820b9814b7"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:55.510838Z"/>
+<entry
+   committed-rev="30"
+   name="menu_check.gif"
+   text-time="2014-07-15T05:17:55.546840Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="c7d003885737f94768eecae49dcbca63"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:55.514838Z"/>
+<entry
+   committed-rev="30"
+   name="progress.gif"
+   text-time="2014-07-15T05:17:55.521839Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="50c5e3e79b276c92df6cc52caeb464f0"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:55.493837Z"/>
+<entry
+   committed-rev="30"
+   name="tabs.gif"
+   text-time="2014-07-15T05:17:55.525839Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="6473bbcd0a011e9fcdd9f777ef437410"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:55.497837Z"/>
+</wc-entries>

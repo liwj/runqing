@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jynine.dao.MessageDao" >
+   <!-- 分页查询消息 -->
+  <select id="findMsgPage" parameterType="map" resultType="com.jynine.model.vo.MessageVo">
+      select 
+	      a.msg_id msgId,
+	      a.msg_title title,
+	      a.msg_send_id sendId,
+	      (select name from user where user_id = a.msg_send_id) sendName,
+	      a.msg_reci_id reciId,
+	      (select name from user where user_id = a.msg_reci_id) reciName,
+	      a.msg_time time,
+	      a.msg_status status
+	  from t_message a
+	  where
+	  	a.msg_status != 3
+	  	<if test="userId!=null">
+	  	    and	(a.msg_send_id = #{userId} or a.msg_reci_id = #{userId})	
+	  	</if>
+	  	<if test="status!=null">
+	  	    and a.msg_status = #{status}
+	  	</if>
+	  	<if test="title!=null">
+	  	    and a.msg_title like concat('%',#{title},'%')
+	  	</if>
+	  order by a.msg_time	desc 
+	  LIMIT #{startLine}, #{pageSize}
+  </select>
+   <!-- 分页查询消息数量 -->
+   <select id="findMsgCountPage" parameterType="map" resultType="int">
+       select 
+	      count(1)
+	  from t_message a
+	  where
+	  	a.msg_status != 3
+	  <if test="userId!=null">
+	  	    and	(a.msg_send_id = #{userId} or a.msg_reci_id = #{userId})	
+	  	</if>
+	  	<if test="status!=null">
+	  	    and a.msg_status = #{status}
+	  	</if>
+	  	<if test="title!=null">
+	  	    and a.msg_title like concat('%',#{title},'%')
+	  	</if>
+   </select>
+  <!-- 新增消息 -->
+   <insert id="insertMsg" parameterType="com.jynine.model.Message" >
+    insert into t_message
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="msgTitle != null" >
+        msg_title,
+      </if>
+      <if test="msgContent != null" >
+        msg_content,
+      </if>
+      <if test="msgStatus != null" >
+        msg_status,
+      </if>
+      <if test="msgSendId != null" >
+        msg_send_id,
+      </if>
+      <if test="msgReciId != null" >
+        msg_reci_id,
+      </if>
+      <if test="msgTime != null" >
+        msg_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="msgTitle != null" >
+        #{msgTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="msgContent != null" >
+        #{msgContent,jdbcType=VARCHAR},
+      </if>
+      <if test="msgStatus != null" >
+        #{msgStatus,jdbcType=INTEGER},
+      </if>
+      <if test="msgSendId != null" >
+        #{msgSendId,jdbcType=INTEGER},
+      </if>
+      <if test="msgReciId != null" >
+        #{msgReciId,jdbcType=INTEGER},
+      </if>
+      <if test="msgTime != null" >
+        #{msgTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <!-- 查询单条消息 -->
+  <select id="findMsg" parameterType="int" resultType="com.jynine.model.vo.MessageVo">
+      select 
+	      msg_id msgId,
+	      msg_title title,
+	      msg_content content,
+	      msg_send_id sendId,
+	      (select name from user where user_id = sendId) sendName,
+	      msg_reci_id reciId,
+	      (select name from user where user_id = reciId) reciName,
+	      msg_time time,
+	      msg_status status
+	  from t_message
+	  where
+	  	msg_id = #{msgId}
+	  and msg_status != 3
+  </select>
+  <!-- 查询消息回复信息 -->
+  <select id="findMsgReply" parameterType="int" resultType="com.jynine.model.MessageReply">
+      select 
+	      msg_id msgId,
+	      msg_content msgContent,
+	      msg_time msgTime,
+	      msg_type msgType
+	  from 
+	  	t_message_reply
+	  where
+	  	msg_id = #{msgId}
+	  order by msg_time asc
+  </select>
+  <!-- 消息回复信息表 -->
+  <insert id="insertReply" parameterType="com.jynine.model.MessageReply">
+	insert into 
+		t_message_reply 
+	(
+		msg_id, 
+		msg_content, 
+		msg_time,
+		msg_type
+	)
+	values 
+	(
+		#{msgId,jdbcType=INTEGER}, 
+		#{msgContent,jdbcType=VARCHAR},
+		#{msgTime,jdbcType=TIMESTAMP},
+		#{msgType,jdbcType=INTEGER}
+	)
+  </insert>
+  <update id="updateMsg" parameterType="com.jynine.model.Message" >
+    update t_message
+    <set >
+      <if test="msgTitle != null" >
+        msg_title = #{msgTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="msgContent != null" >
+        msg_content = #{msgContent,jdbcType=VARCHAR},
+      </if>
+      <if test="msgStatus != null" >
+        msg_status = #{msgStatus,jdbcType=INTEGER},
+      </if>
+      <if test="msgSendId != null" >
+        msg_send_id = #{msgSendId,jdbcType=INTEGER},
+      </if>
+      <if test="msgReciId != null" >
+        msg_reci_id = #{msgReciId,jdbcType=INTEGER},
+      </if>
+      <if test="msgTime != null" >
+        msg_time = #{msgTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where msg_id = #{msgId,jdbcType=INTEGER}
+  </update>
+  <select id="findIsNewMessage" resultType="int" parameterType="int">
+	select 
+		count(1) 
+	from 
+		t_message 
+	where 
+		msg_status = 1 
+	 and	
+	 	(a.msg_send_id = #{userId} or a.msg_reci_id = #{userId})	
+  </select>
+</mapper>

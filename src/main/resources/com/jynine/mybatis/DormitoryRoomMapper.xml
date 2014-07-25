@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jynine.dao.DormitoryRoomDao" >
+  <resultMap id="BaseResultMap" type="com.jynine.model.DormitoryRoom" >
+    <result column="db_id" property="dbId" jdbcType="INTEGER" />
+    <result column="dr_num" property="drNum" jdbcType="VARCHAR" />
+    <result column="dr_desc" property="drDesc" jdbcType="VARCHAR" />
+    <result column="dr_emp" property="drEmp" jdbcType="VARCHAR" />
+    <result column="dr_status" property="drStatus" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    db_id, dr_num, dr_desc, dr_emp, dr_status
+  </sql>
+  <insert id="insert" parameterType="com.jynine.model.DormitoryRoom" >
+    insert into t_dormitory_room (db_id, dr_num, dr_desc, 
+      dr_emp, dr_status)
+    values (#{dbId,jdbcType=INTEGER}, #{drNum,jdbcType=VARCHAR}, #{drDesc,jdbcType=VARCHAR}, 
+      #{drEmp,jdbcType=VARCHAR}, #{drStatus,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jynine.model.DormitoryRoom" >
+    insert into t_dormitory_room
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="dbId != null" >
+        db_id,
+      </if>
+      <if test="drNum != null" >
+        dr_num,
+      </if>
+      <if test="drDesc != null" >
+        dr_desc,
+      </if>
+      <if test="drEmp != null" >
+        dr_emp,
+      </if>
+      <if test="drStatus != null" >
+        dr_status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="dbId != null" >
+        #{dbId,jdbcType=INTEGER},
+      </if>
+      <if test="drNum != null" >
+        #{drNum,jdbcType=VARCHAR},
+      </if>
+      <if test="drDesc != null" >
+        #{drDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="drEmp != null" >
+        #{drEmp,jdbcType=VARCHAR},
+      </if>
+      <if test="drStatus != null" >
+        #{drStatus,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

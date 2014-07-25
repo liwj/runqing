@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/table"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin.js"
+   text-time="2014-07-15T05:18:01.983208Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="931012aa631ff6a1fcd3efc3450721d5"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.512181Z"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="cell.htm"
+   text-time="2014-07-15T05:18:01.989209Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="f427b778a4924154a5e2317ddfd0f567"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.610187Z"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin_src.js"
+   text-time="2014-07-15T05:18:01.995209Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="f0d920943e4da439e768458864ce36ca"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.880203Z"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="merge_cells.htm"
+   text-time="2014-07-15T05:18:01.999209Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="f939ddd56826c0ec3c9e6e9a478346bf"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.964207Z"/>
+<entry
+   name="js"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="row.htm"
+   text-time="2014-07-15T05:18:01.971208Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="fdfc261a10c0ff0fb3c250295d4f4c35"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.323171Z"/>
+<entry
+   committed-rev="30"
+   name="table.htm"
+   text-time="2014-07-15T05:18:01.977208Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="cdd2cff0e649bf384142c2aa95f44396"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.361173Z"/>
+</wc-entries>

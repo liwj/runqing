@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10"
+   name=""
+   committed-date="2014-07-10T14:16:50.050524Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/META-INF"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="36"/>
+<entry
+   committed-rev="10"
+   name="context.xml"
+   text-time="2014-07-11T02:27:56.242518Z"
+   committed-date="2014-07-10T14:16:50.050524Z"
+   checksum="e09bfe52a1bfdf8afa70211c01a6ab11"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-11T02:27:56.222517Z"/>
+</wc-entries>

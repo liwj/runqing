@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="49"
+   name=""
+   committed-date="2014-07-21T15:56:22.823008Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/WEB-INF"
+   last-author="road2013"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="49"/>
+<entry
+   name="spring"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="48"
+   name="web.xml"
+   text-time="2014-07-23T07:03:10.743225Z"
+   committed-date="2014-07-21T15:08:07.537961Z"
+   checksum="7f9ce1dc9fa68452b0c1abb18cf8bb54"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-22T02:12:05.701029Z"/>
+<entry
+   name="views"
+   kind="dir"/>
+</wc-entries>

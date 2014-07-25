@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/template/langs"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="en_dlg.js"
+   text-time="2014-07-15T05:18:04.316342Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="1ce03c0fcf0f1aa74c132459abe30f39"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.308341Z"/>
+</wc-entries>

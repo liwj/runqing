@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="49"
+   name=""
+   committed-date="2014-07-21T15:56:22.823008Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/WEB-INF/spring"
+   last-author="road2013"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="49"/>
+<entry
+   committed-rev="56"
+   name="spring-service.xml"
+   text-time="2014-07-23T08:15:05.958041Z"
+   committed-date="2014-07-23T11:53:27.211154Z"
+   checksum="8c8425aff01d9b310157a168a15b95c1"
+   last-author="road2013"
+   kind="file"
+   prop-time="2014-07-22T02:12:05.402012Z"
+   revision="56"/>
+<entry
+   committed-rev="51"
+   name="spring-database.xml"
+   text-time="2014-07-22T02:40:55.412963Z"
+   committed-date="2014-07-22T10:39:30.190459Z"
+   checksum="081af8dbfc178b283b8bb2d098678cb4"
+   last-author="road2013"
+   kind="file"
+   prop-time="2014-07-22T02:12:05.405012Z"
+   revision="60"/>
+<entry
+   committed-rev="36"
+   name="bak_spring-security.xml"
+   text-time="2014-07-17T07:54:52.890012Z"
+   committed-date="2014-07-16T15:56:45.586626Z"
+   checksum="cab618416241d2dc057f46bb64e201d4"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-17T07:54:52.874412Z"/>
+<entry
+   committed-rev="32"
+   name="servlet-context.xml"
+   text-time="2014-07-23T06:39:24.514649Z"
+   committed-date="2014-07-15T10:25:34.314449Z"
+   checksum="58642a9b22da6f61ea8b7013d920422d"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-17T07:54:52.890012Z"/>
+<entry
+   committed-rev="49"
+   name="spring-security.xml"
+   text-time="2014-07-23T05:26:58.994663Z"
+   committed-date="2014-07-21T15:56:22.823008Z"
+   checksum="5f18754a8d2548620004dba1951b9687"
+   last-author="road2013"
+   kind="file"
+   prop-time="2014-07-22T02:12:05.431014Z"/>
+</wc-entries>

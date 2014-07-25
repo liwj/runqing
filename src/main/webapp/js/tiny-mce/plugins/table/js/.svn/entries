@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/table/js"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="row.js"
+   text-time="2014-07-15T05:18:01.290169Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="9c06d9dec390ebf1a36fb3452a21b1f8"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.114159Z"/>
+<entry
+   committed-rev="30"
+   name="table.js"
+   text-time="2014-07-15T05:18:01.298169Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="33d694e6809f081ddcfed66047b3a0a5"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.162161Z"/>
+<entry
+   committed-rev="30"
+   name="cell.js"
+   text-time="2014-07-15T05:18:01.306170Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="71030210bf410427051ba4657bc777d9"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.263167Z"/>
+<entry
+   committed-rev="30"
+   name="merge_cells.js"
+   text-time="2014-07-15T05:18:01.315170Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="3650484c93d6c9a197d03a5c3c3d2e80"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:01.275168Z"/>
+</wc-entries>

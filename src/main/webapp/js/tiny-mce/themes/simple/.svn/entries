@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/themes/simple"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="editor_template_src.js"
+   text-time="2014-07-15T05:17:56.117873Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="409e0cce50eb6c62463d6dd9c6120859"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:55.950863Z"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   name="skins"
+   kind="dir"/>
+<entry
+   name="img"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="editor_template.js"
+   text-time="2014-07-15T05:17:56.122873Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="3ac3fd3129ee9605052b8470f8d58538"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:56.087871Z"/>
+</wc-entries>

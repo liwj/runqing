@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/paste"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin.js"
+   text-time="2014-07-15T05:18:04.506353Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="ace4ee20adc97976943071a23a644834"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.462350Z"/>
+<entry
+   committed-rev="30"
+   name="pasteword.htm"
+   text-time="2014-07-15T05:18:04.511353Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="8b9459b98f9a70ed684832326bf1cdf6"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.466350Z"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin_src.js"
+   text-time="2014-07-15T05:18:04.518353Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="b8ace9aefca08c72431521b430287824"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.494352Z"/>
+<entry
+   committed-rev="30"
+   name="pastetext.htm"
+   text-time="2014-07-15T05:18:04.523354Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="8f217769e59a5dd67843c7c17c842f41"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.499352Z"/>
+<entry
+   name="js"
+   kind="dir"/>
+</wc-entries>

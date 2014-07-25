@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/media/js"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="embed.js"
+   text-time="2014-07-15T05:18:06.184449Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="39ebc57f44e1cc683724e1c1ff761894"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:06.173448Z"/>
+<entry
+   committed-rev="30"
+   name="media.js"
+   text-time="2014-07-15T05:18:06.190449Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="2729cc3b74b550e20248483271c8b19f"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:06.177448Z"/>
+</wc-entries>

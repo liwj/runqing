@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/utils"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="mctabs.js"
+   text-time="2014-07-15T05:17:59.454064Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="51b9bfe349fe76204ac5b65254bbef6f"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:59.412061Z"/>
+<entry
+   committed-rev="30"
+   name="validate.js"
+   text-time="2014-07-15T05:17:59.462064Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="bfbaf5dc8058ff772afe2d87f4e82fbf"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:59.420062Z"/>
+<entry
+   committed-rev="30"
+   name="editable_selects.js"
+   text-time="2014-07-15T05:17:59.468065Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="e760eb21f60892a1ef2298da7df313e5"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:59.429062Z"/>
+<entry
+   committed-rev="30"
+   name="form_utils.js"
+   text-time="2014-07-15T05:17:59.444063Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="579b2803ffca7953c50f53dcbef5df7e"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:17:59.292054Z"/>
+</wc-entries>

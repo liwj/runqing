@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2014-07-14T16:29:21.121316Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/main/webapp/js/tiny-mce/plugins/xhtmlxtras"
+   last-author="jynine"
+   kind="dir"
+   uuid="9e2a688e-2fb7-477f-b4a6-8157de631537"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="55"/>
+<entry
+   committed-rev="30"
+   name="acronym.htm"
+   text-time="2014-07-15T05:18:05.322399Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="ec632b3d4b6afb189c055afa234e6291"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.769368Z"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin.js"
+   text-time="2014-07-15T05:18:05.334400Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="c9f91af5f1b8a1ba7a1e4ccf53fc7790"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.773368Z"/>
+<entry
+   committed-rev="30"
+   name="ins.htm"
+   text-time="2014-07-15T05:18:05.339400Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="47e7db25678cee383fe6532ebb9e3fcb"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.873374Z"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="editor_plugin_src.js"
+   text-time="2014-07-15T05:18:05.343401Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="b8b8236893ef2347a46cb131fc1a8c69"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:05.200392Z"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="cite.htm"
+   text-time="2014-07-15T05:18:05.232394Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="1468438313b9cb1de0e53e50d75c92fa"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.580357Z"/>
+<entry
+   committed-rev="30"
+   name="del.htm"
+   text-time="2014-07-15T05:18:05.260396Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="81bbcce0d19d78698fad760ee90b6948"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.583357Z"/>
+<entry
+   name="js"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="abbr.htm"
+   text-time="2014-07-15T05:18:05.296398Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="e514d143e00e4b121cab8fe8dfae48d2"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.722365Z"/>
+<entry
+   committed-rev="30"
+   name="attributes.htm"
+   text-time="2014-07-15T05:18:05.317399Z"
+   committed-date="2014-07-14T16:29:21.121316Z"
+   checksum="cf540b962f752babf53faa7a47bde108"
+   last-author="jynine"
+   kind="file"
+   prop-time="2014-07-15T05:18:04.726365Z"/>
+</wc-entries>

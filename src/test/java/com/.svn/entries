@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="51"
+   name=""
+   committed-date="2014-07-22T10:39:30.190459Z"
+   url="svn://www.svn999.com/jynine.runqing/ruiqin/src/test/java/com"
+   last-author="road2013"
+   kind="dir"
+   repos="svn://www.svn999.com/jynine.runqing"
+   revision="51"/>
+<entry
+   name="jynine"
+   kind="dir"/>
+</wc-entries>
